@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Golos Text', sans-serif;
+    text-decoration: none;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+:root{
+    --colors-gray-primary-text:#090A0D;
+    --colors-gray-secondary-text:#676A70;
+    --colors-gradient-gradient:linear-gradient(90deg, #3F6FEA 0%, #3F70EA 6.67%, #3E72E9 13.33%, #3D77E9 20%, #3C7DE7 26.67%, #3B85E6 33.33%, #398FE4 40%, #3799E2 46.67%, #34A4E1 53.33%, #32AFDF 60%, #30B8DD 66.67%, #2FC1DC 73.33%, #2EC7DA 80%, #2DCBDA 86.67%, #2CCED9 93.33%, #2CCFD9 100%);
+    --colors-brand-primary:#4070EA;
+    --colors-brand-secondary:#080F1F;
+}
+header {
+    /* background-color: #333; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vw;
+    padding:0 3.5vw;
+  }
+
+  header img {
+    width: 7.24069vw;
+height: 2.5vw;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: var(--colors-gray-primary-text);
+  margin-left: 2vw;
+  font-family: Golos Text;
+  font-size: 0.875vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+  }
+
+  nav a:hover {
+    color: var(--colors-brand-primary);
+  }
+
+
+
+
+  
+  .container {
+    margin: auto 5.37vw auto 9.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .content {
+    flex: 1;
+  }
+
+  .content h1 {
+    color: var(--colors-gray-primary-text, #090A0D);
+font-family: Golos Text;
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 4.2rem */
+  }
+  .line2{
+    background: var(--colors-gradient-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+  .content p {
+    color: var(--colors-gray-secondary-text);
+font-family: Golos Text;
+font-size: 1vw;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 1.6rem */
+margin-top: 1.5vw;
+  }
+  .button {
+    display: inline-block;
+    padding: 1.125vw 2.5vw;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--colors-brand-primary);
+    color: #FFF;
+font-family: Golos Text;
+font-size: 1vw;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; 
+letter-spacing: -0.01vw;
+margin-top: 2.5vw;
+
+  }
+
+  .button:hover {
+    background-color: var(--colors-brand-secondary);
+  }
+
+  .image {
+    flex: 1;
+    text-align: center;
+  }
+
+  .image img {
+    width: 46.00013vw;
+    height: 35.43731vw;
+    flex-shrink: 0;
+  }
+
+
+  .clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .clients p{
+    margin-bottom: 1.13vw;
+  }
+  .clogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10.38vw;
+    flex-wrap: wrap;
+  }
+  .clogo img{
+    
+   margin-right:7.25vw;
+  }
+
+
+
+  .about{
+    display: inline-flex;
+    gap: 6vw;
+    width: -webkit-fill-available;
+    height: 47.4375vw;
+    /* background-color: rebeccapurple; */
+    margin: 8.81vw 9.5vw;
+    overflow: hidden;
+  }
+  .left img{
+    width: 42.5vw;
+height: 61.25vw;
+object-position: 0 -8vw;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5.91vw 2vw 5.91vw 0;
+  }
+  .right .head2{
+    background: var(--colors-gradient-gradient, linear-gradient(90deg, #3F6FEA 0%, #3F70EA 6.67%, #3E72E9 13.33%, #3D77E9 20%, #3C7DE7 26.67%, #3B85E6 33.33%, #398FE4 40%, #3799E2 46.67%, #34A4E1 53.33%, #32AFDF 60%, #30B8DD 66.67%, #2FC1DC 73.33%, #2EC7DA 80%, #2DCBDA 86.67%, #2CCED9 93.33%, #2CCFD9 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .right h2{
+    color: var(--colors-gray-primary-text);
+    font-family: Golos Text;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 3.25rem */
+    margin-bottom: 1.5vw;
+  }
+  .right p{
+    color: var(--colors-gray-secondary-text, #676A70);
+
+    /* Typography/Normal Text */
+    font-family: Golos Text;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 1.6rem */ 
+  }
+
+.container2{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .success{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4.5vw;
+    align-items: center;
+    width: 92vw;
+height: 30.6875vw;
+flex-shrink: 0;
+background: var(--colors-brand-secondary);
+  }
+  .success h2 .head1{
+    color: #FFF;
+    font-size: 2.5vw;
+  }
+  .success h2 .head2{
+    font-size: 2.5vw;
+    background: var(--colors-gradient-gradient, linear-gradient(90deg, #3F6FEA 0%, #3F70EA 6.67%, #3E72E9 13.33%, #3D77E9 20%, #3C7DE7 26.67%, #3B85E6 33.33%, #398FE4 40%, #3799E2 46.67%, #34A4E1 53.33%, #32AFDF 60%, #30B8DD 66.67%, #2FC1DC 73.33%, #2EC7DA 80%, #2DCBDA 86.67%, #2CCED9 93.33%, #2CCFD9 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  .boxes{
+    display: flex;
+  margin-top: 4vw;
+
+   
+  }
+  .boxes h1{
+    color: #FFF;
+
+/* Typography/Heading 1 */
+font-family: Golos Text;
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 4.2rem */
+  }
+  .boxes p{
+    color: #FFF;
+
+/* Typography/Large Text */
+font-family: Golos Text;
+font-size: 1.25vw;
+font-style: normal;
+font-weight: 400;
+line-height: 1.9375vw; /* 155% */
+  }
+  .box1{
+    margin-right: 2vw;
+    width: 16.75vw;
+height: 11.1875vw;
+flex-shrink: 0;
+border: 1px solid #3C6FEB;
+background: linear-gradient(125deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.00) 99.08%);
+backdrop-filter: blur(2px);
+padding: 1vw 1.25vw;
+  }
+  .box1 h1{
+    color: #FFF;
+font-family: Golos Text;
+font-size: 4.5vw;
+font-style: normal;
+font-weight: 500;
+line-height: 4.875rem; /* 108.333% */
+  }
+  .box2{
+    margin-right: 2vw;
+    width: 16.75vw;
+height: 11.1875vw;
+flex-shrink: 0;
+border: 1px solid #3C6FEB;
+background: linear-gradient(125deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.00) 99.08%);
+backdrop-filter: blur(2px);
+padding: 1vw 1.5vw;
+  }
+  .box3{
+    margin-right: 2vw;
+    width: 16.75vw;
+height: 11.1875vw;
+flex-shrink: 0;
+border: 1px solid #3C6FEB;
+background: linear-gradient(125deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.00) 99.08%);
+backdrop-filter: blur(2px);
+padding: 1vw 1.5vw;
+  }
+  .box4{
+    width: 16.75vw;
+height: 11.1875vw;
+flex-shrink: 0;
+border: 1px solid #3C6FEB;
+background: linear-gradient(125deg, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0.00) 99.08%);
+backdrop-filter: blur(2px);
+padding: 1vw 1.5vw;
+  }
